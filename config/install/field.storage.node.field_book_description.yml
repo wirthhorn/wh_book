@@ -1,0 +1,21 @@
+uuid: 617bfa9f-0796-4ab4-a710-8c1dc0a5ffe6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: vXD3wbsbOWO0AYT3gOEYzPXf-P6BchHQXuVQCRk5SGE
+id: node.field_book_description
+field_name: field_book_description
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

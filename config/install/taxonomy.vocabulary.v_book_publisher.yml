@@ -1,0 +1,11 @@
+uuid: 641b7528-6fbd-4be8-ac90-6a77d8036a57
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: T6lN7ydbQL5w9gcg8XlTHud11_x7uu0i1EBzYTAIg60
+name: Verlag
+vid: v_book_publisher
+description: 'Liste aller zugeordneten Buch-Verlage'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,21 @@
+uuid: 70aa8933-557f-42ff-b294-c095f697a8c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: n5S0sQMFWhQpmAJEd2B6qzZTHB6KaWuHgs48BRBjD2o
+id: node.field_book_seo
+field_name: field_book_seo
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

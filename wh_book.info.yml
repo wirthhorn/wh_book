@@ -1,0 +1,8 @@
+name: 'WH Book'
+type: module
+description: 'Install contenttype book'
+core: 8.x
+package: 'Wirth und Horn'
+dependencies:
+  - wh_person
+  - video_embed_field

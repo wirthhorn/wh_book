@@ -1,0 +1,21 @@
+uuid: 3cfe5104-af6e-45de-8425-c1ad923a6412
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: H0u6oqypR1r1y61fLIy1_m1hDUgl4SUDpFyCquh5TDU
+id: node.field_book_alt_description
+field_name: field_book_alt_description
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

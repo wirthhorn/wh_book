@@ -1,0 +1,7 @@
+wh_book.config_form:
+  title: 'Book Configuration'
+  route_name: wh_book.config_form
+  description: 'Configure the book fields'
+  parent: system.admin_config_system
+  weight: 99
+

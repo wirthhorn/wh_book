@@ -1,0 +1,11 @@
+
+wh_book.config_form:
+  path: '/admin/config/wh_book/config'
+  defaults:
+    _form: '\Drupal\wh_book\Form\ConfigForm'
+    _title: 'Book fields configuration'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

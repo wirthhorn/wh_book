@@ -1,0 +1,21 @@
+uuid: 5ca60ef9-7090-4ee9-a0d9-0000bb250cb7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: o8KBDlO9ppGI2vgEyWjjZ7HatpksSxKyeqjP3jqI1cU
+id: node.field_book_questions
+field_name: field_book_questions
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: eb99aa47-9863-4a34-a074-1c9dee12c283
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: GCT1rsdC9pMtIRhIbtjo_UnQ_r85992q3Xu67Td4UUg
+id: node.field_book_release_date
+field_name: field_book_release_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

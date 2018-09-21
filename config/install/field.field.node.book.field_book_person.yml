@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_person
+    - node.type.book
+  module:
+    - wh_book
+id: node.book.field_book_person
+field_name: field_book_person
+entity_type: node
+bundle: book
+label: Person
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: person_field_type

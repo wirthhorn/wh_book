@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_publisher
+    - node.type.book
+    - taxonomy.vocabulary.v_book_publisher
+id: node.book.field_book_publisher
+field_name: field_book_publisher
+entity_type: node
+bundle: book
+label: Verlag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      v_book_publisher: v_book_publisher
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_alt_description
+    - node.type.book
+  module:
+    - text
+id: node.book.field_book_alt_description
+field_name: field_book_alt_description
+entity_type: node
+bundle: book
+label: 'Manuelle Beschreibung'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,11 @@
+uuid: 8cd26126-3d7d-4e89-8886-c1326c9b0074
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: uXgh-wPEr9sc_Bgf-rjEty4N0fKBYZR83BiQWcSxZtM
+name: 'Book category'
+vid: v_book_category
+description: 'Mapping imported/website categories'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,22 @@
+uuid: 49868f30-e96e-4b32-b8a6-f08ee759bc58
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: kLNt5De9wA4qe8Fk8ghinWg2lcSH69BhhDLhG-ouNx0
+id: node.field_book_price
+field_name: field_book_price
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

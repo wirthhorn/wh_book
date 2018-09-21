@@ -1,0 +1,23 @@
+uuid: 7ab57090-fdac-49f4-92dd-0b9f29e16030
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+_core:
+  default_config_hash: a9FulGyyM6v1fzeqQsO3QXpt6IOVZvb9k6DrfZgTA4Y
+id: node.field_book_video
+field_name: field_book_video
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

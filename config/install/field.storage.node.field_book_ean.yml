@@ -1,0 +1,23 @@
+uuid: 17f94699-9c43-4915-b0b7-648024f1e146
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ufa_oivFWNJhhaHIVkCN7SKp3WDgMoTpsndCxr6dGN0
+id: node.field_book_ean
+field_name: field_book_ean
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

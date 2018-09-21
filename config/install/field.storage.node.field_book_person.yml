@@ -1,0 +1,20 @@
+uuid: 6f50ceec-22cf-42e1-b540-3cb09c0ec580
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - wh_book
+id: node.field_book_person
+field_name: field_book_person
+entity_type: node
+type: person_field_type
+settings:
+  target_type: node
+module: wh_book
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

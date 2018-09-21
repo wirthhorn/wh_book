@@ -1,0 +1,23 @@
+uuid: 083ae424-843c-4c8e-b007-e8e68ac1cc44
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: VgSsk_CyFmNWil9C47e4QO1RnNdztcXAutxD8ZVq62k
+id: node.field_book_category_onix_code
+field_name: field_book_category_onix_code
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

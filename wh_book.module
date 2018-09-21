@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains wh_book.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function wh_book_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the wh_book module.
+    case 'help.page.wh_book':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Install contenttype book') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function wh_book_theme() {
+  return [
+    'wh_book' => [
+      'render element' => 'children',
+    ],
+  ];
+}
