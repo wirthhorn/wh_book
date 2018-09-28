@@ -6,7 +6,6 @@ dependencies:
     - field.field.node.book.field_book_author_ref
     - field.field.node.book.field_book_awards
     - field.field.node.book.field_book_category
-    - field.field.node.book.field_book_category_onix_code
     - field.field.node.book.field_book_cover
     - field.field.node.book.field_book_description
     - field.field.node.book.field_book_ean
@@ -68,14 +67,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
-    region: content
-  field_book_category_onix_code:
-    weight: 5
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
     region: content
   field_book_cover:
     weight: 2
