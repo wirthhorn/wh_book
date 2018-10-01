@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.node.book.field_book_alt_description
-    - field.field.node.book.field_book_author_ref
     - field.field.node.book.field_book_awards
     - field.field.node.book.field_book_category
     - field.field.node.book.field_book_cover
@@ -41,15 +40,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
-    region: content
-  field_book_author_ref:
-    weight: 8
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
     region: content
   field_book_awards:
     weight: 16
