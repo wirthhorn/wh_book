@@ -1,0 +1,9 @@
+uuid: 4bd45bf3-6e01-4b86-839a-b4c74c3f4eca
+langcode: de
+status: true
+dependencies: {  }
+name: Persons
+vid: v_persons
+description: ''
+hierarchy: 0
+weight: 0

@@ -32,7 +32,7 @@ class ConfigForm extends ConfigFormBase {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    $data = $this->get_field_data('books');
+    $data = $this->get_field_data('book');
     $form['wh_book_fields'] = [
       '#type' => 'checkboxes',
       '#title' => $this->t('Select fields you want to delete'),

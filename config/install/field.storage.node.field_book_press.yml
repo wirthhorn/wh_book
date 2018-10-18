@@ -1,5 +1,5 @@
 uuid: fb6839a5-13db-46cf-9184-fdb9f32c2480
-langcode: en
+langcode: de
 status: true
 dependencies:
   module:
@@ -14,7 +14,7 @@ type: text_long
 settings: {  }
 module: text
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

@@ -1,17 +1,15 @@
-uuid: 17f94699-9c43-4915-b0b7-648024f1e146
+uuid: 0a23278c-6ecb-4e2c-b23b-d35e9005959f
 langcode: de
 status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: ufa_oivFWNJhhaHIVkCN7SKp3WDgMoTpsndCxr6dGN0
-id: node.field_book_ean
-field_name: field_book_ean
+id: node.field_book_pages
+field_name: field_book_pages
 entity_type: node
 type: string
 settings:
-  max_length: 255
+  max_length: 60
   is_ascii: false
   case_sensitive: false
 module: core

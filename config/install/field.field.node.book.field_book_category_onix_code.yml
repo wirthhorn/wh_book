@@ -2,19 +2,17 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.storage.node.field_book_seo
+    - field.storage.node.field_book_category_onix_code
     - node.type.book
-  module:
-    - text
-id: node.book.field_book_seo
-field_name: field_book_seo
+id: node.book.field_book_category_onix_code
+field_name: field_book_category_onix_code
 entity_type: node
 bundle: book
-label: 'SEO Text'
+label: 'Kategorie Onix Code'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string

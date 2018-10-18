@@ -1,20 +1,19 @@
+uuid: 4ce63215-b5f9-471a-b76f-8bfe0f9b93c4
 langcode: de
 status: true
 dependencies:
   config:
-    - field.storage.node.field_book_seo
+    - field.storage.node.field_book_pages
     - node.type.book
-  module:
-    - text
-id: node.book.field_book_seo
-field_name: field_book_seo
+id: node.book.field_book_pages
+field_name: field_book_pages
 entity_type: node
 bundle: book
-label: 'SEO Text'
+label: Seitenzahl
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string

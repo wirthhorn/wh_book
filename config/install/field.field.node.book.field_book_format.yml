@@ -1,0 +1,25 @@
+uuid: f163e590-5a47-4154-9e13-9c29b9f472fc
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_format
+    - node.type.book
+    - taxonomy.vocabulary.v_book_format
+id: node.book.field_book_format
+field_name: field_book_format
+entity_type: node
+bundle: book
+label: Format
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      v_book_format: v_book_format
+    sort:
+      field: name

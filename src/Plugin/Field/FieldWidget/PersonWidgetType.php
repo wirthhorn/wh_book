@@ -25,6 +25,7 @@ class PersonWidgetType extends EntityReferenceAutocompleteWidget {
 
   public function formElement(FieldItemListInterface $items, $delta, array $element, array &$form, FormStateInterface $form_state) {
     $widget = parent::formElement($items, $delta, $element, $form, $form_state);
+    
 
     // $widget['quantity'] = array(
     //   '#title' => $this->t('Quantity'),
@@ -34,13 +35,26 @@ class PersonWidgetType extends EntityReferenceAutocompleteWidget {
     //   '#weight' => 10,
     // );
 
-    $options = array(
-      'author' => $this->t('Autor'),
-      'illustrator' => $this->t('Illustrator'),
-      'editor' => $this->t('Editeur'),
-    );
+    //dpm($element);
+    $element['target_id'] = $widget['target_id'];
+    // $options = array(
+    //   'author' => $this->t('Autor'),
+    //   'illustrator' => $this->t('Illustrator'),
+    //   'editor' => $this->t('Editeur'),
+    // );
+    $terms = \Drupal::entityTypeManager()
+      ->getStorage('taxonomy_term')
+      ->loadByProperties([
+        'vid' => 'v_persons',
+      ]);
+
+      $options = array();
+    foreach($terms as $term){
+
+          $options[$term->id()] =  $term->getName();
+    }
     
-     $widget['value'] = array(
+    $element['value'] = array(
       '#title' => $this->t('Rolle'),
       '#type' => 'select',
       '#options' => $options,
@@ -50,7 +64,7 @@ class PersonWidgetType extends EntityReferenceAutocompleteWidget {
 
     );
 
-    return $widget;
+    return $element;
 
   }
 
