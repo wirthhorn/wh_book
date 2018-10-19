@@ -3,11 +3,11 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.storage.node.field_book_format
+    - field.storage.node.field_book_v_bb_binding
     - node.type.book
     - taxonomy.vocabulary.v_book_bindings
-id: node.book.field_book_format
-field_name: field_book_format
+id: node.book.field_book_v_bb_binding
+field_name: field_book_v_bb_binding
 entity_type: node
 bundle: book
 label: Format

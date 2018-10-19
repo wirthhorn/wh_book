@@ -1,19 +1,19 @@
-uuid: 837c3dc6-d632-4c9f-81cc-1f6b865065c0
+uuid: dfc3b623-3739-40d8-a3cc-d3e28504f727
 langcode: de
 status: true
 dependencies:
   module:
     - node
     - taxonomy
-id: node.field_book_format
-field_name: field_book_format
+id: node.field_book_v_bs_series
+field_name: field_book_v_bs_series
 entity_type: node
 type: entity_reference
 settings:
   target_type: taxonomy_term
 module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

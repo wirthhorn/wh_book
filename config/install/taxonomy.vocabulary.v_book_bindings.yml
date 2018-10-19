@@ -2,7 +2,7 @@ uuid: 91ac462c-6921-4af7-b72c-6ff1f2e92664
 langcode: de
 status: true
 dependencies: {  }
-name: 'Book format'
+name: 'Book bindings'
 vid: v_book_bindings
 description: 'eg Hardcover, ebook'
 hierarchy: 0

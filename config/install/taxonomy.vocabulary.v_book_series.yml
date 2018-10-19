@@ -1,0 +1,9 @@
+uuid: 77cee707-b142-441c-b98f-f62762c84b7d
+langcode: de
+status: true
+dependencies: {  }
+name: 'Book series'
+vid: v_book_series
+description: ''
+hierarchy: 0
+weight: 0
