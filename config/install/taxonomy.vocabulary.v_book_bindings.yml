@@ -3,7 +3,7 @@ langcode: de
 status: true
 dependencies: {  }
 name: 'Book format'
-vid: v_book_format
+vid: v_book_bindings
 description: 'eg Hardcover, ebook'
 hierarchy: 0
 weight: 0

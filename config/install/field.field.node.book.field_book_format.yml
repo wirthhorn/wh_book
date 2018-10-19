@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_book_format
     - node.type.book
-    - taxonomy.vocabulary.v_book_format
+    - taxonomy.vocabulary.v_book_bindings
 id: node.book.field_book_format
 field_name: field_book_format
 entity_type: node
@@ -20,6 +20,6 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      v_book_format: v_book_format
+      v_book_bindings: v_book_bindings
     sort:
       field: name
