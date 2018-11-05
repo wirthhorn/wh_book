@@ -1,0 +1,29 @@
+uuid: c74ec7e6-a738-4332-9b3d-c7b81800f4c6
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_availability
+    - node.type.book
+    - taxonomy.vocabulary.v_book_availability
+id: node.book.field_book_availability
+field_name: field_book_availability
+entity_type: node
+bundle: book
+label: Lieferbarkeit
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      v_book_availability: v_book_availability
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

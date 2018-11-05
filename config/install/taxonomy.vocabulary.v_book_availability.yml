@@ -1,0 +1,9 @@
+uuid: 2509b0d2-5471-41e2-b252-aec1d93bf052
+langcode: de
+status: true
+dependencies: {  }
+name: 'Book availability'
+vid: v_book_availability
+description: ''
+hierarchy: 0
+weight: 0
