@@ -1,12 +1,12 @@
-uuid: a5403987-6557-4870-97ab-c3dbd1409b77
+uuid: f838ac79-bc93-44b8-8bd9-dad42209d816
 langcode: de
 status: true
 dependencies:
   module:
     - node
     - taxonomy
-id: node.field_book_availability
-field_name: field_book_availability
+id: node.field_book_v_ba_availability
+field_name: field_book_v_ba_availability
 entity_type: node
 type: entity_reference
 settings:
